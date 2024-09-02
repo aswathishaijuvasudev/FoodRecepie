@@ -1,0 +1,73 @@
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.header h1,p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p{
+  font-weight: bold;
+}
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.form-control{
+  width:20rem;
+  border-radius: 15px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  margin: 0px auto !important;
+}
+
+.hh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin-top: 10px;
+  width: 18rem;
+  padding: 5px;
+
+}
+
+.recepie{
+  padding: 5px;
+  max-height: 400px;
+ overflow-y: scroll;
+}
+
+.card-body,.card-text{
+  background-color: rgb(25, 117, 25);
+}
